@@ -86,7 +86,7 @@ class FieldCallDashboard {
     // 1. Populate Block Progress Table (Compact)
     const tableBody = document.getElementById('blockSummaryTableBody');
     if (tableBody) {
-      const blocks = ['Annagramam', 'Cuddalore', 'Panruti', 'Kurinjipadi', 'Kattumannarkoil', 'Kumaratchi', 'Keerapalayam', 'Bhuvanagiri', 'Parangipettai', 'Vriddhachalam', 'Kammapuram', 'Nallur', 'Mangalore', 'Srimushnam'];
+      const blocks = ['Annagrammam', 'Cuddalore', 'Panruti', 'Kurinjipadi', 'Kattumannarkoil', 'Kumaratchi', 'Keerapalayam', 'Bhuvanagiri', 'Parangipettai', 'Virudhachalam', 'Kammapuram', 'Nallur', 'Mangalore', 'Srimushnam'];
       let tableHTML = '';
       blocks.forEach(b => {
         const bCalls = calls.filter(c => (c.block || '').trim().toLowerCase() === b.toLowerCase());
