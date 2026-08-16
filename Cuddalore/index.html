@@ -360,17 +360,17 @@
 
         <div style="margin-bottom: 12px;">
           <label style="font-size: 12px; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">Mobile Phone Number (WhatsApp) *</label>
-          <input type="tel" id="fbRegContact" required placeholder="e.g. 9042489993" style="width: 100%; height: 42px; font-size: 14px; font-family: inherit; padding: 8px 12px; border-radius: 8px; border: 1.5px solid #e2e8f0; background: #f8fafc; box-sizing: border-box; outline: none;" onfocus="this.style.borderColor='#1877f2'; this.style.background='#ffffff'" onblur="this.style.borderColor='#e2e8f0'; this.style.background='#f8fafc'">
+          <input type="tel" id="fbRegContact" required placeholder="e.g. 90" style="width: 100%; height: 42px; font-size: 14px; font-family: inherit; padding: 8px 12px; border-radius: 8px; border: 1.5px solid #e2e8f0; background: #f8fafc; box-sizing: border-box; outline: none;" onfocus="this.style.borderColor='#1877f2'; this.style.background='#ffffff'" onblur="this.style.borderColor='#e2e8f0'; this.style.background='#f8fafc'">
         </div>
 
         <div style="margin-bottom: 12px;">
           <label style="font-size: 12px; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">Company Email Address *</label>
-          <input type="email" id="fbRegEmail" required placeholder="e.g. mohamadshameer@kssmart.co or Gmail" style="width: 100%; height: 42px; font-size: 14px; font-family: inherit; padding: 8px 12px; border-radius: 8px; border: 1.5px solid #e2e8f0; background: #f8fafc; box-sizing: border-box; outline: none;" onfocus="this.style.borderColor='#1877f2'; this.style.background='#ffffff'" onblur="this.style.borderColor='#e2e8f0'; this.style.background='#f8fafc'">
+          <input type="email" id="fbRegEmail" required placeholder="e.g. @kssmart.co or Gmail" style="width: 100%; height: 42px; font-size: 14px; font-family: inherit; padding: 8px 12px; border-radius: 8px; border: 1.5px solid #e2e8f0; background: #f8fafc; box-sizing: border-box; outline: none;" onfocus="this.style.borderColor='#1877f2'; this.style.background='#ffffff'" onblur="this.style.borderColor='#e2e8f0'; this.style.background='#f8fafc'">
         </div>
 
         <div style="margin-bottom: 12px;">
           <label style="font-size: 12px; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">Starting Home Base Location *</label>
-          <input type="text" id="fbRegHomeBase" placeholder="e.g. Nagapattinam Base (611001)" style="width: 100%; height: 42px; font-size: 14px; font-family: inherit; padding: 8px 12px; border-radius: 8px; border: 1.5px solid #e2e8f0; background: #f8fafc; box-sizing: border-box; outline: none;" onfocus="this.style.borderColor='#1877f2'; this.style.background='#ffffff'" onblur="this.style.borderColor='#e2e8f0'; this.style.background='#f8fafc'">
+          <input type="text" id="fbRegHomeBase" placeholder="e.g. Cuddalore Base (611001)" style="width: 100%; height: 42px; font-size: 14px; font-family: inherit; padding: 8px 12px; border-radius: 8px; border: 1.5px solid #e2e8f0; background: #f8fafc; box-sizing: border-box; outline: none;" onfocus="this.style.borderColor='#1877f2'; this.style.background='#ffffff'" onblur="this.style.borderColor='#e2e8f0'; this.style.background='#f8fafc'">
         </div>
 
         <div style="margin-bottom: 18px;">
@@ -798,7 +798,7 @@
         <select id="blockFilter" class="filter-select">
           <option value="ALL">All Blocks (14)</option>
           <option value="Cuddalore">Cuddalore</option>
-          <option value="Annagramam">Annagramam</option>
+          <option value="Annagramam">Annagrammam</option>
           <option value="Panruti">Panruti</option>
           <option value="Kurinjipadi">Kurinjipadi</option>
           <option value="Kattumannarkoil">Kattumannarkoil</option>
@@ -806,7 +806,7 @@
           <option value="Keerapalayam">Keerapalayam</option>
           <option value="Bhuvanagiri">Bhuvanagiri</option>
           <option value="Parangipettai">Parangipettai</option>
-          <option value="Vridhachalam">Vridhachalam</option>
+          <option value="Vridhachalam">Virudhachalam</option>
           <option value="Kammapuram">Kammapuram</option>
           <option value="Nallur">Nallur</option>
           <option value="Mangalore">Mangalore</option>
@@ -2302,7 +2302,7 @@
                 '</div>' +
                 hmBadgeHTML +
               '</td>' +
-              '<td><span class="badge" style="background: rgba(79, 70, 229, 0.1); color: #4f46e5;">' + (c.district || 'Nagapattinam') + '</span><br><small>' + (c.block || '') + '</small></td>' +
+              '<td><span class="badge" style="background: rgba(79, 70, 229, 0.1); color: #4f46e5;">' + (c.district || 'Cuddalore') + '</span><br><small>' + (c.block || 'Cuddalore') + '</small></td>' +
               '<td style="max-width: 220px; font-size: 0.82rem; color: var(--text-secondary);">' + (c.issue || '-') + '</td>' +
               '<td><span style="font-size: 0.75rem; color: var(--text-muted);">' + (c.category || '') + '</span></td>' +
               '<td class="font-mono">' + (c.contactNo || '-') + '</td>' +
@@ -2320,7 +2320,7 @@
         var blockBody = document.getElementById('blockSummaryTableBody');
         if (blockBody && blockBody.children.length === 0) {
           console.log('[FALLBACK] Block summary empty — rendering');
-          var blocks = ['Keezhaiyur', 'Nagapattinam', 'Kelvelur', 'Thirumarugal', 'Thalainayar', 'Vedaranyam'];
+          var blocks = ['Annagrammam', 'Panruti', 'Kurinjipadi', 'Kattumannarkoil', 'Kumaratchi', 'Keerapalayam', 'Bhuvanagiri', 'Parangipettai', 'Virudhachalam', 'Kammapuram', 'Nallur', 'Mangalore', 'Srimushnam'];
           var bhtml = '';
           blocks.forEach(function(b) {
             var bCalls = calls.filter(function(c) { return c.block === b; });
