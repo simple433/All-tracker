@@ -195,7 +195,7 @@ class AppStore {
     const fullCall = {
       id: nextId,
       udise: newCallData.udise || '',
-      block: newCallData.block || 'Cuddalore',
+      block: newCallData.block || 'Kallakurchi',
       schoolName: newCallData.schoolName || '',
       issue: newCallData.issue || '',
       category: newCallData.category || 'TICKETING TOOL TICKET',
